@@ -1,0 +1,19 @@
+﻿@model List<SuperHeros.Models.Hero>
+
+<h1 class="text-center my-4">Our Super Heroes</h1>
+
+<div class="row">
+    @foreach (var hero in Model)
+    {
+        <div class="col-md-4 mb-4">
+            <div class="card h-100">
+                <img class="card-img-top" src="@hero.ImageUrl" alt="@hero.Name">
+                <div class="card-body text-center">
+                    <h5 class="card-title">@hero.Name</h5>
+                    <p class="card-text">@hero.Powers</p>
+                    <a href="@Url.Action("Details", new { id = hero.Id })" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    }
+</div>
