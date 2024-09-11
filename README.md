@@ -1,4 +1,7 @@
 # ﻿SuperHeros
+
+https://github.com/aryanlakhanpal/Our-Super-Heros/issues/1#issue-2520731923
+
 Welcome to SuperHeros, a dynamic web application that brings superhero profiles to life! This app showcases detailed superhero information with a sleek, interactive user interface. Built using ASP.NET Core 8, it offers a customizable experience with both light and dark themes.
 
 🌟 Features
